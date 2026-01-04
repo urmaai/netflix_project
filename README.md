@@ -33,8 +33,11 @@ CREATE TABLE netflix (
   description varchar(250)
 );
 
-📈 Бизнес-задачи и SQL-решения
+---
+
+## 📈 Бизнес-задачи и SQL-решения
 1. Количество фильмов и сериалов
+```sql
 SELECT type, COUNT(*) AS cnt
 FROM netflix
 GROUP BY 1;
